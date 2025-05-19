@@ -1,1 +1,0 @@
-<h1 class="text-2xl font-medium flex justify-center my-8 bg-gray-100 w-1/2 mx-auto p-5 rounded-md shadow-lg">Selamat datang di sistem Data siswa</h1>
