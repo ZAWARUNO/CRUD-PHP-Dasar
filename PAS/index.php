@@ -12,17 +12,15 @@ include 'service/database.php';
 <body>
     <header class="bg">
         <h1>WEBSITE DATA SEKOLAH</h1>
-        <a href="?page=tambah_data">Tambah Data</a>
-        <a href="?page=lihat_data">Lihat_data</a>
+        <a href="?page=layout/tambah_data">Tambah Data</a>
+        <a href="?page=layout/lihat_data">Lihat_data</a>
     </header>
     <main>
         <?php
-        $page = isset($_GET['page']) ? $_GET['page'] : 'tambah_data' ;
+        $page = isset($_GET['page']) ? $_GET['page'] : 'layout/tambah_data' ;
         include $page . '.php' ;
         ?>
     </main>
-    <footer>
-        @copyright by M.Apriansyah
-    </footer>
+    <?php include 'layout/footer.html' ?>
 </body>
 </html>

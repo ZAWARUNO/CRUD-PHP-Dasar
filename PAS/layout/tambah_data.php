@@ -1,15 +1,18 @@
-<?php 
-$nama = $_POST["nama"];
-$nisn_nip = $_POST["nisn/nip"];
-$kelas = $_POST["kelas"];
-$jenis_kelamin = $_POST["jenis_kelamin"];
-$jurusan = $_POST["jurusan"];
-$sebagai = $_POST["sebagai"];
-$sql = "INSERT INTO ";
+<?php
+if (isset($_POST["tambah"])) {
+        $nama = $_POST["nama"];
+        $nisn_nip = $_POST["nisn/nip"];
+        $kelas = $_POST["kelas"];
+        $jenis_kelamin = $_POST["jenis_kelamin"];
+        $jurusan = $_POST["jurusan"];
+        $sebagai = $_POST["sebagai"];
+        $sql = "INSERT INTO ";
+        echo $nama . $nisn_nip . $kelas . $jenis_kelamin . $jurusan . $sebagai;
+}
 ?>
 
 <h1>
-Tambah Data Siswa/Guru 
+        Tambah Data Siswa/Guru
 </h1>
 
 <form action="" method="POST">
