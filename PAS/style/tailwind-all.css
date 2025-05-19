@@ -158,6 +158,7 @@ img {
  * 2. Remove the margin in Firefox and Safari.
  */
 
+
 button,
 input,
 optgroup,
@@ -11251,6 +11252,10 @@ video {
 
 .w-64 {
   width: 16rem;
+}
+
+.w-3\/4 {
+    width: 75%;
 }
 
 .w-auto {

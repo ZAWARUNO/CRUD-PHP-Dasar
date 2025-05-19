@@ -7,13 +7,15 @@ include 'service/database.php';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <!-- <link rel="stylesheet" href="style/tailwind-all.css"> -->
+    <link rel="stylesheet" href="style/tailwind-all.css">
 </head>
-<body>
-    <header class="bg">
-        <h1>WEBSITE DATA SEKOLAH</h1>
-        <a href="?page=layout/tambah_data">Tambah Data</a>
-        <a href="?page=layout/lihat_data">Lihat_data</a>
+<body class="w-full h-full">
+    <header class="bg-teal-300 fixed top-0 left-0 right-0 text-center py-2 font-bold">
+        <h1 class="text-2xl my-5">WEBSITE DATA SEKOLAH</h1>
+        <div class="">
+        <a class="mr-5 hover:text-white" href="?page=layout/tambah_data">Tambah Data</a>
+        <a class="ml-5 hover:text-white" href="?page=layout/lihat_data">Lihat_data</a>
+        </div>
     </header>
     <main>
         <?php
