@@ -56,7 +56,7 @@ if (isset($_POST["edit"])) {
                 <option value="siswa" <?php if ($data['sebagai'] == 'siswa')  echo "selected" ?>>Siswa</option>
             </select>
             <div class="flex justify-center">
-                <button type="submit" class="block bg-blue-600 rounded-lg px-5 text-white mt-3 p-2 shadow-md" name="edit">Tambah Data</button>
+                <button type="submit" class="block bg-blue-600 rounded-lg px-5 text-white mt-3 p-2 shadow-md" name="edit">Edit Data</button>
             </div>
         </div>
     </form>
